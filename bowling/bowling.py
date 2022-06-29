@@ -1,8 +1,9 @@
 class Game:
-    rolls = []
+    def __init__(self):
+        self.rolls = []
 
     def roll(self, pin_count):
-        self.rolls.append(pin_count)
         return
+
     def score(self):
-        return sum(self.rolls)
+        return 0
