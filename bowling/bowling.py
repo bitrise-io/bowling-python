@@ -3,7 +3,7 @@ class Game:
         self.rolls = []
 
     def roll(self, pin_count):
-        return
+        self.rolls.append(pin_count)
 
     def score(self):
-        return 0
+        return sum(self.rolls)
